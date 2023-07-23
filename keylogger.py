@@ -32,4 +32,3 @@ class Logger():
     def run(self):
         with keyboard.Listener(on_press=self.on_press) as listener:
             listener.join()
-
